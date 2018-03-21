@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Scss Document */
 @import "fonts";
 @import "variables";
@@ -12,4 +13,20 @@ body {
 	@include responsive-max($width-small){
 		font-size:12px;
 	}
+=======
+/* Scss Document */
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "extend";
+@import "reset";
+@import "grid";
+body {
+	@include responsive-max($width-medium){
+		font-size:12px;
+	}
+	@include responsive-max($width-small){
+		font-size:12px;
+	}
+>>>>>>> a10cf6a5ebb4a63347102abef2885c5be722b088
 }
