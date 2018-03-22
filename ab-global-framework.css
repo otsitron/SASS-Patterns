@@ -18,12 +18,12 @@
 /* Scss Document */
 /* placer hoder CSS */
 .ab-container:after, .ab-row:after {
-  content: " ";
+  content: "";
   display: table;
   clear: both; }
 
 .ab-container:before, .ab-row:before {
-  content: " ";
+  content: "";
   display: table; }
 
 .ab-col-12 {
